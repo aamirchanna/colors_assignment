@@ -1,0 +1,41 @@
+body{
+    background-color: #596275;
+}
+
+.child1{
+    background-color: #eccc68;
+  }
+  .child2{
+    background-color: #eccc68;
+  }
+  .child3{
+    background-color: #eccc68;
+  }
+  .child4{
+    background-color: #eccc68;
+  }
+  .child5{
+    background-color: #eccc68;
+  }
+  .child6{
+    background-color: #eccc68;
+  }
+
+.child {
+    border: 1px solid black;
+    width: 30%;
+    /* border-collapse:separate; */
+    height: 200px;
+    box-sizing: border-box;
+    align-items: flex-end;
+    justify-content: space-around;
+      justify-content: flex-end;       
+    display: flex;      
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: flex-end; */
+    justify-content: space-around;
+}
